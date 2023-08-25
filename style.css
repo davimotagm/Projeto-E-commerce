@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    list-style: none;
+}
+
+.headerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    box-shadow: 3px -2px 15px 8px rgba(192, 192, 192, 0.418);
+}
+
+.containerHeader {
+    /* border: solid 1px black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+/* .container_navigation {
+     encolher a lista quando a tela atingir uma largura mínima 
+} */
+
+.list_navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.all {
+    font-weight: 600;
+}
+
+.divMain {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px auto;
+    gap: 3rem;
+    /* background-color: #F5F5F5; */
+}
+
+.containerArticle {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    gap: 1.5rem;
+    /* font-size: small; */
+}
+
+.card_product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid #F5F5F5;
+    margin-bottom: 1rem;
+    width: 250px; 
+    height: 325px; 
+}
+
+.card_product:hover {
+    transition: 0.4s;
+    border: 3px solid #37268C;
+}
+
+.box_img {
+    height: 40%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_img img {
+    width: 65%;
+    height: auto; 
+    display: block;
+}
+
+.product_information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    padding: 0.6rem;
+    font-size: small;
+    font-weight: normal;
+}
+
+.price {
+    color: #2E245E;
+    font-weight: 700;
+}
+
+.product_information button {
+    border: none;
+    background-color: white;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.divAside {
+    /* border: 1px solid black; */
+    width: 30%;
+    /* height: auto; */
+}
+
+.search_field {
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    height: 3rem;
+    gap: 5px;
+}
+
+.search_text {
+    padding-left: 1rem;
+    width: 75%;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.search_submit {
+    width: 25%;
+    background-color: #37268C;
+    color: white;
+    border: none;
+}
+
+.shopping {
+    max-width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-small;
+    height: 3rem;
+    background-color: #37268C;
+    color: white;
+    border: none;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 10rem;
+    background-color: #F5F5F5;
+}
