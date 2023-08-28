@@ -25,7 +25,7 @@ let produtos = [{
     descricao: "Gola redonda em retilínea contrastante em verde neon e detalhe no meio.",
     valor: 329.90,
     img: "Img/Camisa Palmeiras Puma I 23-24.png"
-}, 
+},
 {
     categoria: ["Camisetas"],
     nome: "Camisa Palmeiras Estádio Puma II 23/24",
